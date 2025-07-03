@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Lista de Carros</title>
+    </head>
+    {% block content %}
+        <body>
+            <h1>Carros cadastrados</h1>
+                {% for car in cars %}
+                    <h3> {{ car.model }} </h3>
+                {% endfor %}
+        </body>
+    {% endblock %}
+</html>
+
