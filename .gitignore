@@ -1,0 +1,20 @@
+# Ignorar ambiente virtual Python
+venv/
+
+# Ignorar arquivos de banco de dados SQLite
+db.sqlite3
+
+# Ignorar arquivos de migração do Django
+**/migrations/*
+!**/migrations/__init__.py
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar arquivos do VS Code
+.vscode/
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
